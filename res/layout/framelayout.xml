@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView android:id="@+id/FirstImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/android_ice_cream_sandwich"
+        android:contentDescription="@string/first_image"/>
+    
+    <ImageView android:id="@+id/SecondImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/android_jellybean"
+        android:contentDescription="@string/second_image"/>
+    
+</FrameLayout>

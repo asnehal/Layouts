@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.layouts"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Layouts"
+            android:label="@string/title_activity_layouts" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="Layouts" />
+        </activity>
+        <activity android:name="LinearLayoutExample"></activity>
+        <activity android:name="RelativeLayoutExample"></activity>
+        <activity android:name="TabLayoutExample"></activity>
+        <activity android:name="TableLayoutExample"></activity>
+        <activity android:name="GridLayoutExample"></activity>
+        <activity android:name="FrameLayoutExample"></activity>
+        <activity android:name="Tab1"></activity>
+        <activity android:name="Tab2"></activity>
+        <activity android:name="Tab3"></activity>
+    </application>
+
+</manifest>

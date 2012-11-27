@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Layouts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_layouts">Layouts</string>
+    <string name="parentTop">layout1 - alignParentTop(true)</string>
+	<string name="parentBottom">layout2 - alignParentBottom(true)</string>
+	<string name="parentLeft">layout3 - alignParentLeft(true)</string>
+	<string name="parentRight">layout4 - alignParentRight(true)</string>
+	<string name="top">Below layout1</string>
+	<string name="bottom">Above layout2</string>
+	<string name="left">Right of layout3</string>
+	<string name="right">Left of layout4</string>
+	<string name="first_image">First Image</string>
+	<string name="second_image">Second Image</string>
+</resources>
